@@ -1,5 +1,5 @@
 @import url(footer.css);
-/* @import url(main.css);*/
+@import url(main.css);
 
 * {
   box-sizing: border-box;
@@ -114,8 +114,4 @@ header > nav {
   text-decoration: none;
   cursor: pointer;
   color: black;
-}
-
-.nav .short {
-  margin-right: 120px;
 }
