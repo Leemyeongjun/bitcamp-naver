@@ -120,7 +120,7 @@ main {
   left: 30px;
 }
 
-.box-eix {
+.box-eix, .box-sev {
   color: gray;
   padding-top: 20px;
   position: relative;
@@ -152,6 +152,11 @@ main {
 .pic-text ul {
   padding-left: 10px;
   list-style: none;
+}
+
+.pic-text ul li {
+  font-size: 13px;
+  float: left;
 }
 
 .box-six {
@@ -250,4 +255,13 @@ main {
 .shop_list a {
   padding: 3px;
   font-size: 12px;
+}
+
+.picture {
+  cursor: pointer;
+}
+
+.pic-text ul li:nth-child(2):hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
