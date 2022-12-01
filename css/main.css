@@ -50,7 +50,7 @@ main {
 }
 
 .gap-box {
-  height: 60px;
+  height: 40px;
 }
 
 .border-box {
@@ -278,7 +278,7 @@ main {
   list-style: none;
   font-size: 13px;
   position: relative;
-  top: 12px;
+  top: 16px;
   left: 15px;
   font-weight: bold;
 }
@@ -288,7 +288,7 @@ main {
   list-style: none;
   font-size: 13px;
   position: relative;
-  top: 12px;
+  top: 10px;
   right: 15px;
   font-weight: bold;
 }
@@ -298,6 +298,7 @@ main {
 }
 
 .mini_news2 ul span {
+  padding-top: 5px;
   padding-right: 10px;
   font-weight: bold;
   color: lightgray;
@@ -312,6 +313,8 @@ main {
 .mini2 {
   color: #a43368;
   font-size: 16px;
+  position: relative;
+  bottom: 3px;
 }
 
 .mini3 {
@@ -320,6 +323,7 @@ main {
 
 .mini_news2 ul li {
   padding-right: 10px;
+  padding-top: 5px;
 }
 
 .mini4 {
@@ -367,7 +371,7 @@ main {
 
 .news-left, .news-left1, .news-left2 {
   font-weight: bold;
-  padding-top: 13px;
+  padding-top: 7px;
 }
 
 .news-left1 a, .news-left2 a {
@@ -379,7 +383,7 @@ main {
 }
 
 .bar-left ul span {
-  padding-top: 13px;
+  padding-top: 6px;
   padding-left: 3px;
   padding-right: 3px;
   font-weight: bold;
@@ -419,7 +423,7 @@ main {
   background-position: -302px -387px ;
   display: inline-block;
   position: relative;
-  top: 5px;
+  bottom: 1px;
   width: 35px;
   height: 27px;    
 }
@@ -430,7 +434,7 @@ main {
   background-position: -272px -350px ;
   display: inline-block;
   position: relative;
-  top: 5px;
+  bottom: 2px;
   width: 20px;
   height: 20px; 
   margin-right: 10px;
@@ -441,7 +445,7 @@ main {
   background-position: -310px -350px ;
   display: inline-block;
   position: relative;
-  top: 5px;
+  bottom: 2px;
   width: 19px;
   height: 20px;    
   margin-right: 10px;
@@ -452,7 +456,24 @@ main {
   background-position: -485px -420px ;
   display: inline-block;
   position: relative;
-  top: 5px;
+  bottom: 2px;
   width: 19px;
   height: 20px;    
+}
+
+.thum-box {
+  display: table;
+  width: 100%;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-box {
+  border-bottom: solid 1px lightgray;
+  border-right: solid 1px lightgray;
+  display: table-cell;
+  align-items: center;
+  cursor: pointer;
 }
