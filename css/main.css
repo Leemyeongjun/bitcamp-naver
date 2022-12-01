@@ -477,3 +477,97 @@ main {
   align-items: center;
   cursor: pointer;
 }
+
+.text-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-bar ul {
+  display: flex;
+  list-style: none;
+  padding-top: 20px;
+}
+
+.text-bar ul:first-child li:first-child {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.text-bar ul:first-child :nth-child(2) {
+  font-size: 12px;
+  padding-top: 2px;
+  padding-left: 10px;
+  color: #808080;
+}
+
+.text-bar ul:nth-child(2) li:first-child {
+  font-size: 12px;
+}
+
+.text-bar ul:nth-child(2) span {
+  padding-left: 10px;
+  font-size: 12px;
+  color: lightgray;
+}
+
+.text-bar ul:nth-child(2) li:nth-child(3) {
+  padding-left: 10px;
+  font-size: 12px;
+  color: #808080;
+  cursor: pointer;
+}
+
+.text-bar ul:nth-child(2) li:nth-child(3):hover {
+  text-decoration: underline;
+}
+
+.thum-btn {
+  list-style: none;
+  display: flex;
+  font-size: 13px;
+  height: 49px;
+}
+
+.thum-btn li {
+  width: 94px;
+  height: 49px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 16px;
+  border: 1px solid #dae1e6;
+  box-sizing: border-box;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.thum-btn li a {
+  color: #202020;
+}
+
+.thum-text {
+  margin-top: 35px;
+}
+
+.thum-text-list {
+  display: flex;
+}
+
+.thum-text-list ul {
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.thum-text-list ul li:last-child {
+  padding-top: 5px;
+}
+
+.thum-text-list span {
+  font-weight: bold;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: #808080;
+}
