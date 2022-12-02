@@ -66,8 +66,7 @@ footer {
 }
 
 .area_go .area_img {
-  width: 60px;
-  height: 60px;
+  padding-left: 15px;
 }
 
 .bottom_box {
